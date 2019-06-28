@@ -1,3 +1,4 @@
+import unittest
 try:
     from lcpy import none, true, false
 except ImportError:
