@@ -7,14 +7,18 @@ with open("README.md", mode="r") as FILE_HANDLER:
 # Keywords:
 TAGS = [
     "utilities",
-    "enhancements"
+    "enhancements",
+    "lowercase",
+    "booleans",
+    "keywords",
+    "values"
 ]
 
 # Classifiers:
 CLASSIFIERS = [
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.4",
     "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
@@ -31,6 +35,7 @@ CLASSIFIERS = [
     "Operating System :: MacOS :: MacOS X",
     "Operating System :: POSIX :: Linux",
     "Operating System :: Other OS",
+    "Operating System :: OS Independent",
     "Intended Audience :: Developers",
     "Intended Audience :: End Users/Desktop",
     "Topic :: Software Development :: Libraries",
@@ -40,7 +45,7 @@ CLASSIFIERS = [
     "Topic :: Terminals",
     "Development Status :: 5 - Production/Stable",
     "Framework :: IDLE",
-    "Natural Language :: English",
+    "Natural Language :: English"
 ]
 
 # GitHub URL:
