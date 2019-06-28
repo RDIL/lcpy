@@ -61,7 +61,7 @@ URLs = \
 
 
 setuptools.setup(
-    name="lcpy",
+    name="lc-py",
     version="1.0.0",
     author="Reece Dunham",
     author_email="me@rdil.rocks",
