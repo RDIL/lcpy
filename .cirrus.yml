@@ -1,0 +1,7 @@
+task:
+  name: Unit Tests
+  script: pip3 install --upgrade unittest-xml-reporting==2.5.1 && python3 -m xmlrunner tests
+  always:
+    unittest_results_artifacts:
+      path: ./*.xml
+      format: junit
