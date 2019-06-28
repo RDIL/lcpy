@@ -2,7 +2,10 @@ task:
   name: Unit Tests
   container:
     image: python:slim
-  script: pip3 install --upgrade unittest-xml-reporting==2.5.1 && python3 -m xmlrunner tests
+  install_script: |
+    pip3 install --upgrade unittest-xml-reporting==2.5.1
+    pip3 install .
+  script: python3 -m xmlrunner tests
   always:
     unittest_results_artifacts:
       path: ./*.xml
