@@ -62,7 +62,7 @@ URLs = \
 
 setuptools.setup(
     name="lc-py",
-    version="1.0.0",
+    version="1.1.0",
     author="Reece Dunham",
     author_email="me@rdil.rocks",
     description="Lowercase values for Python!",
