@@ -58,13 +58,13 @@ URLs = \
         "Bug Tracker": "https://github.com/RDIL/lcpy/issues",
         "Source Code": "https://github.com/RDIL/lcpy/",
         "License": "https://github.com/RDIL/lcpy/blob/master/LICENSE",
-        "Documentation": "https://docs.rdil.rocks/lcpy"
+        "Documentation": "https://docs.rdil.rocks/libraries/lcpy"
     }
 
 
 setuptools.setup(
     name="lc-py",
-    version="2.0.0",
+    version="2.0.1",
     author="Reece Dunham",
     author_email="me@rdil.rocks",
     description="Lowercase values for Python!",
