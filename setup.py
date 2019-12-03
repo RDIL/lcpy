@@ -11,7 +11,8 @@ TAGS = [
     "lowercase",
     "booleans",
     "keywords",
-    "values"
+    "values",
+    "errors"
 ]
 
 # Classifiers:
@@ -63,7 +64,7 @@ URLs = \
 
 setuptools.setup(
     name="lc-py",
-    version="1.1.1",
+    version="2.0.0",
     author="Reece Dunham",
     author_email="me@rdil.rocks",
     description="Lowercase values for Python!",
